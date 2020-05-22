@@ -18,12 +18,12 @@ required = ['requests']
 
 setup(
     name='stathat',
-    version='0.3.0',
+    version='0.3.8',
     description='StatHat.com API Wrapper.',
     long_description=open('README.rst').read(),
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/stathat.py',
+    author='James Greenhill',
+    author_email='fuziontech@gmail.com',
+    url='https://github.com/fuziontech/stathat.py',
     py_modules= ['stathat'],
     install_requires=required,
     license='MIT',
@@ -43,5 +43,8 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ),
 )
